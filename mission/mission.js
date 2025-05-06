@@ -12,7 +12,7 @@ function changeTheme() {
 
   } else {
     body.classList.add('dark');
-    logo.src = 'images/byui-logo_white.webp';
+    logo.src = 'images/byui-logo_white.png';
   }
 }
 
