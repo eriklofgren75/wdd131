@@ -59,3 +59,11 @@ footer {
     margin: 0 auto;
     max-width: 500px;
 }
+.dark {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+.dark .title h2 {
+    color: #6CC4FF;
+}
