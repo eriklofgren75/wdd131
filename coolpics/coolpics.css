@@ -124,3 +124,41 @@ img {
     display: none;
   }
 }
+.hide {
+  display: none;
+}
+
+dialog {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  border: none;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+dialog::backdrop {
+  background: rgba(0,0,0,0.6);
+}
+
+dialog img {
+  display: block;
+  width: 90%;
+  max-height: 100%;
+  margin: 20ch auto 0;
+}
+
+.close-viewer {
+  position: absolute;
+  right: 5vw;
+  top: 20vh;
+  background: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
