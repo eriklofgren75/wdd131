@@ -19,7 +19,7 @@ function handleResize() {
 }
 
 menuButton.addEventListener("click", toggleMenu);
-window.addEventListener("resize, handleResize");
+window.addEventListener("resize", handleResize);
 handleResize();
 
 document.querySelectorAll(".gallery img").forEach((img) => {
