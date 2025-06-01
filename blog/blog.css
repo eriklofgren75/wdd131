@@ -113,6 +113,7 @@ footer {
     font-size: 0.9rem;
     color: #473144;
     border-right: 1px solid #EFC69B;
+    width: 180px;
 }
 
 .books img {
@@ -122,4 +123,13 @@ footer {
     margin-top: 1rem auto 0;
     align-items: center;
 
+}
+
+.left-info .date {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.left-info p {
+    line-height: 1.6;
 }
